@@ -2,10 +2,12 @@ import React from 'react'
 
 import GlobalStyle from './styles/global.js'
 
+import Sidebar from './components/Sidebar'
+
 const App = () => (
   <React.Fragment>
     <GlobalStyle />
-    <h1>Hello World</h1>
+    <Sidebar />
   </React.Fragment>
 )
 
