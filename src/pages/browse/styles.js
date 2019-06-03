@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
+/* Foi importado aqui, pois ao invés de utilizar o <a> vamos estilizar o componente do link */
+import { Link } from 'react-router-dom'
+
 export const Container = styled.div`
   flex: 1;
   margin-top: 110px;
@@ -15,7 +18,7 @@ export const List = styled.div`
   display: flex;
 `
 
-export const Playlist = styled.a`
+export const Playlist = styled(Link)`
   display: flex;
   flex-direction: column;
   margin-left: 20px;

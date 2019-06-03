@@ -7,7 +7,7 @@ const Browse = () => (
     <Title>Navegar</Title>
 
     <List>
-      <Playlist href=''>
+      <Playlist to='/playlists/1'>
         <img
           src='https://upload.wikimedia.org/wikipedia/pt/b/b5/ImagineDragonsEvolve.jpg'
           alt='playlist'
@@ -15,7 +15,7 @@ const Browse = () => (
         <strong> Essa é top </strong>
         <p>Relaxe enquanto você programa ouvindo as melhores</p>
       </Playlist>
-      <Playlist href=''>
+      <Playlist to='/playlists/1'>
         <img
           src='https://upload.wikimedia.org/wikipedia/pt/b/b5/ImagineDragonsEvolve.jpg'
           alt='playlist'
@@ -23,7 +23,7 @@ const Browse = () => (
         <strong> Essa é top </strong>
         <p>Relaxe enquanto você programa ouvindo as melhores</p>
       </Playlist>
-      <Playlist href=''>
+      <Playlist to='/playlists/1'>
         <img
           src='https://upload.wikimedia.org/wikipedia/pt/b/b5/ImagineDragonsEvolve.jpg'
           alt='playlist'
@@ -31,7 +31,7 @@ const Browse = () => (
         <strong> Essa é top </strong>
         <p>Relaxe enquanto você programa ouvindo as melhores</p>
       </Playlist>
-      <Playlist href=''>
+      <Playlist to='/playlists/1'>
         <img
           src='https://upload.wikimedia.org/wikipedia/pt/b/b5/ImagineDragonsEvolve.jpg'
           alt='playlist'
