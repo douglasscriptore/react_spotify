@@ -8,6 +8,7 @@ const INITIAL_STATE = {
   loading: false
 }
 
+// reducer
 export default function playlists (state = INITIAL_STATE, action) {
   switch (action.type) {
     case Types.GET_REQUEST:
@@ -19,6 +20,7 @@ export default function playlists (state = INITIAL_STATE, action) {
   }
 }
 
+// actions
 export const Creators = {
   getPlaylistsRequest: () => ({ type: Types.GET_REQUEST }),
   getPlaylistsSuccess: data => ({
