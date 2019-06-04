@@ -1,7 +1,9 @@
 import styled from 'styled-components'
-
 /* Foi importado aqui, pois ao invés de utilizar o <a> vamos estilizar o componente do link */
 import { Link } from 'react-router-dom'
+
+/* Importação do style do componente Spinner */
+import { Spinner } from '../../components/Loading/styles'
 
 export const Container = styled.div`
   flex: 1;
@@ -11,6 +13,10 @@ export const Container = styled.div`
 `
 export const Title = styled.h1`
   font-size: 48px;
+
+  ${Spinner} {
+    height: 24px;
+  }
 `
 
 export const List = styled.div`
