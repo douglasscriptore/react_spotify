@@ -82,13 +82,13 @@ class Sidebar extends Component {
             </li>
             {this.props.playlists.data.map(playlist => (
               <li key={playlist.id}>
-                <Link to={`playlists/${playlist.id}`}>{playlist.title}</Link>
+                <Link to={`/playlists/${playlist.id}`}>{playlist.title}</Link>
               </li>
             ))}
           </Nav>
         </div>
         <NewPlaylist>
-          <img src={AddPlayListIcon} alt='Adicionar Palylist' />
+          <img src={AddPlayListIcon} alt='Adicionar Playlist' />
           Nova Playlist
         </NewPlaylist>
       </Container>
