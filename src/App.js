@@ -8,6 +8,7 @@ import GlobalStyle from './styles/global.js'
 import Sidebar from './components/Sidebar'
 import Player from './components/Player'
 import Header from './components/Header'
+import ErrorBox from './components/ErrorBox'
 
 import { Wrapper, Conteiner, Content } from './styles/components'
 
@@ -27,6 +28,7 @@ const App = () => (
         <Conteiner>
           <Sidebar />
           <Content>
+            <ErrorBox />
             <Header />
             <Routes />
           </Content>
